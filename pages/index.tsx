@@ -29,13 +29,7 @@ function PostCard(post: Post) {
       <h2>
         <AccordionButton>
           <Box as="span" flex="1" textAlign="left">
-            <Link
-              href={post.url}
-              className="text-blue-700 hover:text-blue-900"
-              legacyBehavior
-            >
-              {post.title}
-            </Link>
+            {post.title}
           </Box>
           <AccordionIcon />
         </AccordionButton>
